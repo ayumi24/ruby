@@ -1,6 +1,13 @@
 def fizz_buzz(namber)
-  
-  
+  if namber % 15 == 0
+  "fizz_buzz"
+  elsif namber % 3 == 0
+  "fiz"
+  elsif namber % 5 == 0
+  "buzz"
+  else
+  namber.to_s
+  end
 end
 
 puts "数字を入力してください。"
